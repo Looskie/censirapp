@@ -1,0 +1,30 @@
+.wi {
+  display: inline-block;
+  font-family: 'weathericons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.thunder {
+  content: url(./components/assets/icons/Thunder.svg);
+}
+.sprinkle {
+  content: url(./components/assets/icons/Sprinkle.svg);
+}
+.rain {
+  content: url(./components/assets/icons/Rain.svg);
+}
+.snow {
+  content: url(./components/assets/icons/Snow.svg);
+}
+.fog {
+  content: url(./components/assets/icons/Fog.svg);
+}
+.cloudy {
+  content: url(./components/assets/icons/Cloudy.svg);
+}
+.sunny {
+  content: url(./components/assets/icons/Sunny.svg);
+}

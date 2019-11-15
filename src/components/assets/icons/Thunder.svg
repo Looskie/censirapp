@@ -1,0 +1,30 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="23.7228" cy="51.4505" rx="13.7228" ry="14.104" fill="#97A7C0"/>
+<ellipse cx="29.8218" cy="37.3465" rx="7.62376" ry="16.7723" fill="#97A7C0"/>
+<ellipse cx="43.1633" cy="33.5346" rx="16.3911" ry="16.7723" fill="#97A7C0"/>
+<ellipse cx="40.8762" cy="27.8168" rx="16.3911" ry="11.8168" fill="#97A7C0"/>
+<ellipse cx="34.7773" cy="35.4406" rx="11.8168" ry="17.9158" fill="#97A7C0"/>
+<ellipse cx="73.2772" cy="51.4505" rx="13.7228" ry="14.104" fill="#97A7C0"/>
+<rect x="23.7228" y="38.1089" width="50.3168" height="27.4455" fill="#97A7C0"/>
+<ellipse cx="61.8416" cy="38.1089" rx="9.91089" ry="8.38614" fill="#97A7C0"/>
+<ellipse rx="18" ry="18.5" transform="matrix(-1 0 0 1 125 76.5)" fill="#B4BFD5"/>
+<ellipse rx="10" ry="22" transform="matrix(-1 0 0 1 117 58)" fill="#B4BFD5"/>
+<ellipse rx="21.5" ry="22" transform="matrix(-1 0 0 1 99.5 53)" fill="#B4BFD5"/>
+<ellipse rx="21.5" ry="15.5" transform="matrix(-1 0 0 1 102.5 45.5)" fill="#B4BFD5"/>
+<ellipse rx="15.5" ry="23.5" transform="matrix(-1 0 0 1 110.5 55.5)" fill="#B4BFD5"/>
+<ellipse rx="18" ry="18.5" transform="matrix(-1 0 0 1 60 76.5)" fill="#B4BFD5"/>
+<rect width="66" height="36" transform="matrix(-1 0 0 1 125 59)" fill="#B4BFD5"/>
+<ellipse rx="13" ry="11" transform="matrix(-1 0 0 1 75 59)" fill="#B4BFD5"/>
+<ellipse cx="24" cy="86.5" rx="18" ry="18.5" fill="#DEE6F3"/>
+<ellipse cx="32" cy="68" rx="10" ry="22" fill="#DEE6F3"/>
+<ellipse cx="49.5" cy="63" rx="21.5" ry="22" fill="#DEE6F3"/>
+<ellipse cx="46.5" cy="55.5" rx="21.5" ry="15.5" fill="#DEE6F3"/>
+<ellipse cx="38.5" cy="65.5" rx="15.5" ry="23.5" fill="#DEE6F3"/>
+<ellipse cx="89" cy="86.5" rx="18" ry="18.5" fill="#DEE6F3"/>
+<rect x="24" y="69" width="66" height="36" fill="#DEE6F3"/>
+<ellipse cx="74" cy="69" rx="13" ry="11" fill="#DEE6F3"/>
+<path d="M54.5488 66.3067L54.5488 94.8067L31.0487 94.8066L54.5488 66.3067Z" fill="#619ED5"/>
+<rect x="54.5487" y="82.8066" width="17" height="12" fill="#619ED5"/>
+<path d="M71.4345 94.8663L67.0492 82.8069L82.0487 82.8068L71.4345 94.8663Z" fill="#619ED5"/>
+<path d="M39.2894 130.763L55.0487 92.8068L73.0487 92.8068L39.2894 130.763Z" fill="#619ED5"/>
+</svg>

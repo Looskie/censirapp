@@ -1,0 +1,317 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#loader {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: #23272A url('../img/logo.svg') no-repeat center center;
+    background-size: 335px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #2c2f33;
+}
+
+/*=== Fonts === */
+
+@font-face {
+    font-family: 'poplight';
+    src: url('/fonts/Poppings-Light.ttf') format("ttf");
+}
+
+@font-face {
+    font-family: 'poplighti';
+    src: url('/fonts/Poppins-LightItalic.ttf') format("ttf");
+}
+
+@font-face {
+    font-family: 'popmed';
+    src: url('/fonts/Poppins-Medium.ttf') format("ttf");
+}
+
+@font-face {
+    font-family: 'popmedi';
+    src: url('/fonts/Poppins-MediumItalic.ttf') format("ttf");
+}
+
+@font-face {
+    font-family: 'popreg';
+    src: url('/fonts/Poppins-Regular.ttf') format("ttf");
+}
+
+@font-face {
+    font-family: 'popregi';
+    src: url('/fonts/Poppins-RegularItalic.ttf') format("ttf");
+}
+
+@font-face {
+    font-family: 'popbold';
+    src: url('/fonts/Poppins-SemiBold.ttf') format("ttf");
+}
+
+/*=== Text Formatting ===*/
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 108px;
+    color: #03749C;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #D2D2D2;
+}
+
+p {
+    padding-right: 60px;
+    padding-left: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 54px;
+    color: #99AAB5;
+}
+
+p2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #D2D2D2;
+}
+
+p2:hover {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #D2D2D2;
+}
+
+p5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: #99AAA1;
+}
+
+p6 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #99AAB5;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+p1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: #99AAB5;
+}
+
+/*=== Div classes ===*/
+
+nav {
+    display: grid;
+    grid-template-columns: 4.25fr .5fr .5fr 1fr;
+    align-items: center;
+}
+
+
+.cookies {
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.rectangle {
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -250px;
+    bottom: 0px;
+    height: 50px;
+    width: 500px;
+    border: none;
+    border-radius: 594px;
+    background-color: #27272c;
+}
+
+.content {
+    position: absolute;
+    top: 35%;
+    height: auto !important;
+    height: 62vh;
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    line-height: 50px;
+}
+
+/*== Buttons ==*/
+
+button {
+    width: 121px;
+    height: 35px;
+    background: #499D56;
+    border: none;
+    background-color: #499D56;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+    cursor: pointer;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+/*=== essentials ===*/
+
+.logo {
+    margin-top: 8px;
+    margin-left: 75px;
+    height: 125px;
+    width: 125px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+a {
+    text-decoration: underline;
+    color: #79868F;
+    transition-timing-function: ease-out;
+    transition-duration: .25s;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #576067;
+    transition-timing-function: ease-in-out;
+    transition-duration: .25s;
+}
+
+li {
+    float: right;
+    list-style-type: none;
+}
+
+
+input[type=text] {
+    margin-top: 25px;
+    width: 527px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #03749C;
+    height: 48px;
+    background: #23272A;
+    border: none;
+    border-radius: 30px;
+}
+
+input[type=submit] {
+    font-size: 26px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-left: -50px;
+    z-index: 200;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background-color: #03749c;
+}
+
+input[type=submit]:focus {
+    outline: 0;
+}
+
+input[type=text]:focus::placeholder {
+    color: transparent;
+}
+
+input[type=text]::placeholder {
+    color: #03749C;
+}
+
+input[type=text]:focus {
+    outline: 0;
+}
+
+
+/*=== Scroll bar ==*/
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #23272A;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2C80B9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #03749C;
+}
+
+/*== All other sites besides main ===*/
+
+.onsite {
+    text-decoration-line: underline;
+}
+
+
+/*=== For About us site ===*/
+
+#about {
+    font-size: 50px;
+}
+
+#aboutp {
+    font-size: 30px;
+}

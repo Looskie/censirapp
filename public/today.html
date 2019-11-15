@@ -19,12 +19,15 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 	</head>
-
+<!-- l?zipcode=06095&country=US -->
 
 	<body>
         <div id="loader"></div>
 				<div id="banner"></div>
         <main>
+          <script>
+            document.getElementById("result").innerHTML=localStorage.getItem("Cityname");
+          </script>
             <nav>
                 <div class="banner"></div>
                 <img class="logo" src="assets/img/logo.svg" draggable="false" style="-moz-user-select: none;">
@@ -35,9 +38,9 @@
 
             <div class="content">
 							<div class="weather"></div>
-                <h1>censir</h1>
-                <p>A reliable weather app</p>
-								<div id="root"></div>
+
+                <span id="result"></span>
+
 								<div id="test"></div>
                 <div class="cookies">
                     <div class="rectangle">
@@ -46,6 +49,7 @@
                 </div>
             </div>
         </main>
+
 
 	</body>
 
