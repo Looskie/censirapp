@@ -1,14 +1,12 @@
 import React from "react";
-import Titles from "./components/Titles.js";
 import Form from "./components/Form.js";
 import Weather from "./components/Weather.js";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // These are imports for the images //
 import "./icons.css";
 
 // My API key
-const API_KEY = "removed for repo";
+const API_KEY = "f118068f2221b29881e4092bbcf1a389";
 
 class CensirMain extends React.Component {
   constructor() {
@@ -134,12 +132,17 @@ class CensirMain extends React.Component {
 
   render() {
      return (
-       <Router>
-        <div className="App">
-          <Form getWeather={this.getWeather}/>
-          <Route path="./components/Weather.js" component={Weather} />
-        </div>
-      </Router>
+       <div>
+        <Form getWeather={this.getWeather}/>
+        <Weather
+        cityname={this.state.city}
+        weatherIcon={this.state.icon}
+        temperature={this.state.temperature}
+        temp_max={this.state.temp_max}
+        temp_min={this.state.temp_min}
+        description={this.state.description}
+          />
+       </div>
      );
   }
 };
